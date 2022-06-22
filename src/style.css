@@ -21,7 +21,12 @@ body {
 
 .section .leaderboard-title {
   font-size: 45px;
-  color: rgb(0, 0, 0);
+  color: rgb(241, 244, 245);
+}
+
+.leaderboard-title span {
+  color: rgb(5, 5, 5);
+  text-shadow: 1px 3px;
 }
 
 .main-page {
