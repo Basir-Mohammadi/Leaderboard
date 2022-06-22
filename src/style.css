@@ -17,10 +17,6 @@ body {
 .section {
   padding: 1.5rem;
   margin: 4rem 15rem;
-  /* width: 650px;
-  height: 400px;
-  border: 3px solid grey; */
- 
 }
 
 .section .leaderboard-title {
@@ -60,7 +56,7 @@ body {
   border-radius: 5px;
 }
 
-.recent-score-body div{
+.recent-score-body div {
   margin-bottom: 2px;
 }
 
