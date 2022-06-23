@@ -9,18 +9,24 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
+  background-image: url('leader2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section {
   padding: 1.5rem;
-  margin: 8rem 22rem;
-  width: 650px;
-  height: 400px;
-  border: 3px solid grey;
+  margin: 4rem 15rem;
 }
 
 .section .leaderboard-title {
-  font-size: 35px;
+  font-size: 45px;
+  color: rgb(241, 244, 245);
+}
+
+.leaderboard-title span {
+  color: rgb(5, 5, 5);
+  text-shadow: 1px 3px;
 }
 
 .main-page {
@@ -36,25 +42,37 @@ body {
 .recent-score-bar .score-text {
   margin-right: 28px;
   font-size: 25px;
+  color: white;
+}
+
+.refresh-btn {
+  padding: 5px 10px;
+  box-shadow: 3px 2px grey;
+}
+
+.refresh-btn:hover {
+  background: rgb(26, 25, 25);
+  color: white;
+  cursor: pointer;
 }
 
 .recent-score-body {
-  border: 2px solid grey;
-  width: 260px;
-  height: 200px;
+  border: 2px solid rgb(107, 106, 106);
   border-radius: 5px;
 }
 
-.recent-score-body ul li {
-  margin-bottom: 5px;
+.recent-score-body div {
+  margin-bottom: 2px;
 }
 
-.recent-score-body li:nth-child(odd) {
-  background: lightgrey;
+.recent-score-body div:nth-child(odd) {
+  background: rgb(192, 143, 143);
+  padding: 10px 5px;
 }
 
-.recent-score-body ul {
-  margin-left: -35px;
+.recent-score-body div:nth-child(even) {
+  background: rgb(152, 175, 125);
+  padding: 10px 5px;
 }
 
 .add-score-bar {
@@ -64,6 +82,7 @@ body {
 
 .add-score-text {
   margin-bottom: 1.5rem;
+  color: white;
 }
 
 .text-input-score {
@@ -81,7 +100,15 @@ body {
   margin-bottom: 1rem;
 }
 
-.text-score-btn {
+.submit-btn {
   float: right;
   margin-top: 10px;
+  padding: 10px 8px;
+  box-shadow: 3px 2px grey;
+}
+
+.submit-btn:hover {
+  background: rgb(26, 25, 25);
+  color: white;
+  cursor: pointer;
 }
