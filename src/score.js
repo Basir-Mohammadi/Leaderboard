@@ -19,7 +19,7 @@ export const addScore = async (e) => {
     {
       method: 'POST',
       body: JSON.stringify({
-        name: 'My cool new game',
+        name: 'My awesome new game',
         user: `${e.target.name.value}`,
         score: `${e.target.score.value}`,
       }),
